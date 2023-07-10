@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["python", "app.py"]
+CMD ["python", "rng.py"]
+
+# run it with 'docker run -it xyz1abc'
